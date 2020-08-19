@@ -1,9 +1,17 @@
 import React, { Component } from "react";
+import Education from './../Education/Education';
+import './Home.scss';
+
 
 class Home extends Component {
     render() {
         return (
-            <h1>Home</h1>
+            <div className="home-body">
+                <div className="home-title">
+                    Tiger THE TANK GUY
+                </div>
+                <Education />
+            </div>
         )
     }
 }

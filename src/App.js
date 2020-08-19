@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import Resume from './components/Resume/Resume';
 import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
 import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ function App() {
                 Home
                 <Link to="/" />
               </MenuItem>
-              <MenuItem icon={<FontAwesomeIcon icon={faAlignJustify}/>}>
+              <MenuItem icon={<FontAwesomeIcon icon={faFileAlt}/>}>
                 Resume
                 <Link to="/resume" />
               </MenuItem>
