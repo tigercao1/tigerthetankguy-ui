@@ -30,8 +30,10 @@ function App() {
           </SidebarContent>
         </ProSidebar>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
+          <div className="main">
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" component={Resume} />
+          </div>
         </Switch>
       </Router>
     </div>
