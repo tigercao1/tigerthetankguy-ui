@@ -6,9 +6,6 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <head>
-      <script src="https://kit.fontawesome.com/904f9a79d2.js" crossorigin="anonymous"></script>
-    </head>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
