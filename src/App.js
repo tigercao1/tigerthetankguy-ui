@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProSidebar breakPoint="md">
+        <SidebarHeader className="side-bar-header">
+          Tiger C.
+        </SidebarHeader>
+        <SidebarContent>
+          <Menu>
+            <MenuItem icon={<FontAwesomeIcon icon={faHome}/>}>Home</MenuItem>
+            <MenuItem icon={<FontAwesomeIcon icon={faAlignJustify}/>}>Resume</MenuItem>
+          </Menu>
+        </SidebarContent>
+      </ProSidebar>
     </div>
   );
 }
