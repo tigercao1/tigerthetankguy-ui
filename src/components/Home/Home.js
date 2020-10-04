@@ -1,16 +1,30 @@
 import React, { Component } from "react";
-import Education from './../Education/Education';
+import Card from './../Card/Card';
 import './Home.scss';
 
 
 class Home extends Component {
+
+    homeMsg = (
+        <p>
+            Software Engineer.
+            <br/><br/>
+            Determination.
+            <br/><br/>
+            Full-Stack.
+            <br/><br/>
+            Passion.
+            <br/><br/>
+            Me.
+        </p>
+    )
     render() {
         return (
             <div className="home-body">
-                <div className="home-title">
-                    Tiger THE TANK GUY
-                </div>
-                <Education />
+                <Card 
+                    cardType="home"
+                    title={"Hi! I'm Tiger!"}
+                    content={this.homeMsg}></Card>
             </div>
         )
     }

@@ -10,11 +10,11 @@ class Card extends Component {
 
     render() {
         return (
-            <div className="card-body">
+            <div className={`card-body ${this.props.cardType ? this.props.cardType : ""}`}>
                 <div className="card-title">
                     {this.title}
                 </div>
-
+                <span className="splitter"></span>
                 <div className="card-content">
                     {this.content}
                 </div>

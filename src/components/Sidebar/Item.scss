@@ -1,0 +1,10 @@
+.item {
+    height: 63px;
+    width: 100%;
+    display: flex;
+    .item-icon {
+        margin:auto;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
