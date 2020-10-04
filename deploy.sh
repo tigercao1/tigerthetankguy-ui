@@ -1,4 +1,7 @@
+rm -rf build
 npm run build
 rm -rf ../../tigercao1.github.io/*
 mv -v build/* ../tigercao1.github.io
-./../tigercao1.github.io/deploy.sh
+git -C ../tigercao1.github.io add .
+git -C ../tigercao1.github.io commit -m "deployment"
+git -C ../tigercao1.github.io push
