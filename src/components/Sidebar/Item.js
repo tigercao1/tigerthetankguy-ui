@@ -9,10 +9,11 @@ class Item extends Component {
 
     render() {
         return (
-            <div className="item">
-                <div className="item-icon">
+            <div className="item" role="button">
+                <span className="item-icon">
                     {this.icon}
-                </div>
+                </span>
+                <span>{this.props.children}</span>
                 {/* TODO - on hover display menu item name */}
             </div>
         )

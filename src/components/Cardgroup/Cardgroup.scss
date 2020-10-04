@@ -1,0 +1,16 @@
+.card-group {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .space {
+        flex-grow: 1
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 3;
+        .card-body {
+            flex-grow: 10;
+        }
+    }
+}

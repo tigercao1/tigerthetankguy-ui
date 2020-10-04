@@ -1,0 +1,27 @@
+.footbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90px;
+    background: rgb(230,57,70);
+    background: linear-gradient(90deg, rgba(230,57,70,1) 0%, rgba(142,227,239,1) 100%);
+    border-left: 1px solid rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    .footbar-body {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        a {
+            font-weight: normal;
+        }
+        
+        .splitter-container {
+            display: flex;
+            justify-content: center;
+            min-width: 50px;
+            .splitter {
+                width: 0;
+            }
+        }
+    }
+}

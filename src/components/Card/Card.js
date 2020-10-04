@@ -6,6 +6,7 @@ class Card extends Component {
         super(props);
         this.title = props.title;
         this.content = props.content;
+        this.cardType = props.cardType;
     }
 
     render() {
@@ -18,6 +19,7 @@ class Card extends Component {
                 <div className="card-content">
                     {this.content}
                 </div>
+                
             </div>
         )
     }
