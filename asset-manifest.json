@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tigerthetankguy-ui/static/css/main.246c11b9.chunk.css",
+    "main.js": "/tigerthetankguy-ui/static/js/main.55728436.chunk.js",
+    "main.js.map": "/tigerthetankguy-ui/static/js/main.55728436.chunk.js.map",
+    "runtime-main.js": "/tigerthetankguy-ui/static/js/runtime-main.01226156.js",
+    "runtime-main.js.map": "/tigerthetankguy-ui/static/js/runtime-main.01226156.js.map",
+    "static/js/2.848bfdd8.chunk.js": "/tigerthetankguy-ui/static/js/2.848bfdd8.chunk.js",
+    "static/js/2.848bfdd8.chunk.js.map": "/tigerthetankguy-ui/static/js/2.848bfdd8.chunk.js.map",
+    "index.html": "/tigerthetankguy-ui/index.html",
+    "precache-manifest.c96c705cbfbab5b40d7ec75ad3a55dbe.js": "/tigerthetankguy-ui/precache-manifest.c96c705cbfbab5b40d7ec75ad3a55dbe.js",
+    "service-worker.js": "/tigerthetankguy-ui/service-worker.js",
+    "static/css/main.246c11b9.chunk.css.map": "/tigerthetankguy-ui/static/css/main.246c11b9.chunk.css.map",
+    "static/js/2.848bfdd8.chunk.js.LICENSE.txt": "/tigerthetankguy-ui/static/js/2.848bfdd8.chunk.js.LICENSE.txt",
+    "static/media/my_photo.png": "/tigerthetankguy-ui/static/media/my_photo.0450316a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01226156.js",
+    "static/js/2.848bfdd8.chunk.js",
+    "static/css/main.246c11b9.chunk.css",
+    "static/js/main.55728436.chunk.js"
+  ]
+}
